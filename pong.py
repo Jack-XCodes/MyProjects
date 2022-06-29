@@ -1,4 +1,5 @@
 #lets make pong using the turtle mudule bcoz its in built
+#player A  moves with w -up and s -down while player B movesz with arrow up and down
 import turtle
 
 
