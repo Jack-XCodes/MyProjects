@@ -1,20 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>counter</title>
-</head> 
-<script>
-     counter = 0
-     function  hello(){
-         counter++;
-         document.querySelector('h1').innerHTML = counter
-      }
-</script>
+    <title>Content</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card {
+            background-color: rgba(16, 3, 104, 0.932);
+            overflow: auto;
+            color: #FFFF;
+            padding: 15px;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .cont-1 {
+            float: left;
+            width: 45%;
+            background-color: #c5c7c7;
+            /* opacity: 0.6; */
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-weight: 100px;
+        }
+        
+        .text {
+            font-size: 20px;
+            padding-left: 20px;
+            float: left;
+            width: 45%;
+            height: auto;
+        }
+        
+        .cont-2 {
+            float: right;
+            width: 45%;
+            padding-right: 15px;
+            background-color: #c5c7c7;
+            opacity: 0.;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: white;
+        }
+        
+        button {
+            background-color: rgb(220, 223, 74);
+            border-radius: 5px;
+            padding: 10px;
+            opacity: ;
+            margin-bottom: 15px;
+        }
+        
+        button:hover {
+            background-color: #6DC7D0;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        
+        .img-1 {
+            float: right;
+            max-width: 45%;
+            max-height: 35%;
+            padding-right: 15px;
+            margin: 15px;
+            margin-left: 0%;
+        }
+        
+        .img-2 {
+            float: right;
+            max-width: 45%;
+            padding-right: 15px;
+            margin: 6px;
+            margin-left: 0%;
+        }
+        
+        .card h1 {
+            text-align: center;
+        }
+        
+        h3 {
+            font-size: 20px;
+            color: #f8e005;
+        }
+    </style>
+</head>
+
 <body>
-    <h1 style="color: blue; text-align:center">0</h1>
-    <button onclick="hello()" >click me</button>
+
+    <div class="card">
+        <h1>Look at Our Projects</h1>
+        <p style="font-size: 20px;">What are we upto? </p>
+        <div class="container1">
+            <div class="cont-1">
+                <h2>Our Studio Project</h2>
+                <h3>CATCOM Choir</h3>
+                <P class="text">The only way to do great work is to love what you to do . We are building a studio for recording and producing music and videos. We are accepting contributions in cash and equipments ... <i>more</i>
+                    <button>Contribute</button>
+                </P>
+                <div class="img-1">
+                    <img src="/images/pik-1.png" alt="project picture one">
+                </div>
+            </div>
+            <div class="cont-2">
+                <h2>Charity work</h2>
+                <h3>CATCOM Alumni</h3>
+                <P class="text">Always give without remembering and always receive without forgeting Giving does not only precede receiving :it is she the reason for it. We are accepting contributions ... <i>more</i>
+                    <button>Contribute</button>
+                </P>
+                <div class="img-2">
+                    <img src="/images/pik-2.png" alt="project picture two">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
